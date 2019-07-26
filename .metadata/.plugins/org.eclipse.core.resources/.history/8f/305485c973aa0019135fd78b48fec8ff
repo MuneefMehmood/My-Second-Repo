@@ -1,0 +1,12 @@
+package myFirstPackage;
+
+public class mySecondRunner {
+	
+	String a = "Hello";
+	
+	
+	
+	
+	
+
+}

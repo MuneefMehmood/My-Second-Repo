@@ -1,0 +1,7 @@
+package myFirstPackage;
+
+public class MyBestRunner {
+Public static void main(string[] args) {
+	
+}
+}

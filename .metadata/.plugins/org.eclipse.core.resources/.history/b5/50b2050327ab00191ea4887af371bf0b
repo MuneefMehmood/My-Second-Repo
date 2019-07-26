@@ -1,0 +1,38 @@
+package ourFirstJavaProgram;
+
+import java.util.Scanner;
+
+public class NewLearningJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scann = new Scanner(System.in);
+		
+		
+		System.out.println("Enter Your First Name");
+		String FirstName= scann.nextLine();
+		
+		
+		System.out.println("Enter Your Last Name");
+		String LastName= scann.nextLine();
+		
+		System.out.println("Enter Your DOB");
+		String DOB= scann.nextLine();
+		
+		System.out.println("Provide your phone number");
+		long phoneNumber = scann.nextLong();
+		
+		System.out.println("Enter Your Height");
+		short Height = scann.nextShort();
+		
+		
+		
+		
+		
+
+		
+		
+		
+	}
+
+}

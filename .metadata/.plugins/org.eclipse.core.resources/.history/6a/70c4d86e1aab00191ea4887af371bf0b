@@ -1,0 +1,13 @@
+package myFirstPackage;
+
+public class string {
+private static final string My = null;
+private static final string Muneef = null;
+
+public static void main(string[] args) {
+string a = My  ;
+
+string myName = Muneef ;
+system.out
+}
+}

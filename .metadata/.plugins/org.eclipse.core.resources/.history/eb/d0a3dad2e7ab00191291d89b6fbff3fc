@@ -1,0 +1,24 @@
+package myFirstPackage;
+
+public class SundayClass {
+	
+	
+	public static void main(String[] args) {
+	
+		
+		String make = "BMW";
+		String model = "Model 330";
+		
+				
+		
+		
+		
+		System.out.println("My Car make"+make);
+		System.out.println("My Car model"+model);
+		
+	}
+	
+	
+	
+
+}

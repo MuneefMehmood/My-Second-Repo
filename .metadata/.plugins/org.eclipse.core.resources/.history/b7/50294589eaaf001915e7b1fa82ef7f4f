@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class Beginners {
+
+	public static void main(String[] args) {
+		
+		Scanner scann = new Scanner(System.in);
+		
+		System.out.println("Enter Your First Name");
+		String FirstName= scann.nextLine();
+		
+		System.out.println("Enter Your Last Name");
+		String LastName= scann.nextLine();
+		
+		System.out.println("Enter Your Date Of Birth");
+		String DOB= scann.nextLine();
+		
+		System.out.println("Enter Your Email Address");
+		String EmailAddress= scann.nextLine();
+		
+		System.out.println("Enter Yor Phone Number");
+		Long PhoneNumber= scann.nextLong();
+		
+		System.out.println("Enter Yor Home Address");
+		String HomeAddress= scann.nextLine();
+		
+		System.out.println("Enter Your Height");
+		Double Height= scann.nextDouble();
+		
+		
+		System.out.println("Form Information");
+		System.out.println("First,Last Name: + First Name + Last Name");
+		System.out.println("DOB:" + "DOB");
+		System.out.println("EmailAddress:" + "EmailAddress");
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

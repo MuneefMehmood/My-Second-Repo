@@ -1,0 +1,55 @@
+package ourFirstJavaProgram;
+
+import java.util.Scanner;
+
+public class NewLearningJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scann = new Scanner(System.in);
+		
+		
+		System.out.println("Enter Your First Name");
+		String firstName= scann.nextLine();
+		
+		
+		System.out.println("Enter Your Last Name");
+		String lastName= scann.nextLine();
+		
+		System.out.println("Enter Your DOB");
+		String dob= scann.nextLine();
+		
+		System.out.println("Provide your phone number");
+		long phoneNumber = scann.nextLong();
+		
+		
+		System.out.println("Enter Your Height");
+		 double Height = scann.nextDouble();
+		 
+		 System.out.println("Enter Your BloodGroup");
+		 String Bloodgroup = scann.next();
+		 
+		 System.out.println("Enter Your HomeAddress");
+		 String HomeAddress = scann.next();
+		
+		
+		System.out.println("Form information");
+		System.out.println("First , Last Neme : "+firstName +","+lastName );
+		System.out.println("Date of Birth : "+dob);
+		System.out.println("Phone number : "+ phoneNumber);
+		System.out.println("Height : "+Height);
+		System.out.println("Bloodgroup : "+Bloodgroup);
+		System.out.println("HomeAddress : "+HomeAddress);
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+	}
+
+}
